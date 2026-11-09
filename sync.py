@@ -115,6 +115,7 @@ def build(source: Path) -> None:
             (OUT / page).write_text(wrap(title, page, markdown_html(markdown)), encoding="utf-8")
             pages.append(page)
     home_source = (source / "README.md").read_text(encoding="utf-8")
+    home_source = re.sub(r"^\[打开线上知识库\]\([^\n]+\)\s*\n", "", home_source, count=1, flags=re.M)
     home_body = markdown_html(fix_links(home_source, Path("index.html")))
     home_body += '<div class="quick"><a href="medical-records/health-hub.html">打开健康记录查阅台</a><a href="files.html">浏览全部文件</a></div>'
     (OUT / "index.html").write_text(wrap("首页", Path("index.html"), home_body), encoding="utf-8")
