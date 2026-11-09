@@ -1,0 +1,3 @@
+query_year,transaction_count,total_settlement_CNY,cash_paid_CNY,fund_paid_CNY,personal_account_paid_CNY,source,limitations
+2025,243,54924.37,22436.26,24823.51,7664.60,浙里办-浙里医保-就医购药记录年度汇总,含退款；结算时间可能跨年；非就诊次数，不能据此判断住院史或医疗诊断
+2026,106,33371.97,7767.97,20578.16,5025.84,浙里办-浙里医保-就医购药记录年度汇总,截至本轮查询；含退款；非就诊次数，明细未全部逐笔转录

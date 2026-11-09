@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>来源与覆盖范围 · 个人知识库</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body><header><div class="bar"><a class="brand" href="../index.html">个人知识库</a><nav><a href="../index.html">首页</a><a href="../medical-records/README.html">医疗资料</a><a href="../medical-records/health-hub.html">健康查阅台</a><a href="../files.html">全部文件</a></nav></div></header>
+<main><div class="crumb">sources/README.html</div><h1 id="section">来源与覆盖范围</h1>
+
+<p>2026-10-30 按用户对可读性和记忆作用的反馈重写了阅读页面。首页突出已做选择、接续事项和可复用的方法；原始编号集中在资料页，旧话题留在资料池。</p>
+
+<p>改写前的内容快照保存在 <code>history/2026-10-30-before-readable-rewrite.json</code>；改写内容保存在 <code>history/2026-10-30-readable-rewrite.json</code>。这两份是笔记版本记录，不是完整聊天备份。</p>
+
+<ul>
+  <li><code>app_threads.json</code>：2026-10-29 从当前应用列出的 <strong>60 个</strong> ChatGPT/Codex 对话目录项（近期、置顶、归档及选定的较早对话，已去重）。它是<strong>目录快照</strong>，不代表账号全部历史。</li>
+  <li><code>codex_root_sessions.tsv</code>：从本机 <strong>859 个</strong> Codex 会话档案中索引 <strong>81 个不同、元数据未标记父会话的会话</strong>。旧档案可能仍包含委派记录；索引不复制会话正文。可用 ID、日期和首条可读用户消息寻找遗漏主题。此索引也不是聊天内容备份。</li>
+  <li><code>scripts/index_chatgpt_export.py</code>：取得 ChatGPT 导出 ZIP 或 <code>conversations.json</code> 后，可生成元数据目录，例如 <code>python3 scripts/index_chatgpt_export.py /path/to/export.zip</code>。脚本不会复制完整对话正文。</li>
+  <li>各笔记中的来源 ID 对应原对话。已阅读部分消息的来源只支持笔记中具体那条记录，不能推出整段会话已经完整处理。</li>
+</ul>
+
+<p>本次没有在本机 Downloads 找到 ChatGPT 数据导出文件。若以后提供导出 ZIP，先检查内容与访问权限，再批量盘点、去重、提炼。不要把完整导出文件直接上传到公开仓库。</p>
+</main><footer>公开知识库 · 原始资料与网页版本同时保留</footer></body></html>

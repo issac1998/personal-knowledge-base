@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>就医与检验原始数据 · 个人知识库</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body><header><div class="bar"><a class="brand" href="../index.html">个人知识库</a><nav><a href="../index.html">首页</a><a href="README.html">医疗资料</a><a href="health-hub.html">健康查阅台</a><a href="../files.html">全部文件</a></nav></div></header>
+<main><div class="crumb">medical-records/README.html</div><h1 id="section">就医与检验原始数据</h1>
+
+<p>本目录保存当前可见医疗资料的逐项转录。门诊162条（2021-01-13起），原始检验991项、逐药处方137条、影像13项及病理1份。三个漏存门诊卡片已补齐，门诊数与App累计162次一致。正常和异常指标均保留。完整覆盖边界及仍缺原件见<a href="coverage.html">coverage.md</a>。线上索引为<a href="summary-2026-11-09.html">就医病历与检验指标总览</a>。</p>
+
+<ul>
+  <li><code>encounters.csv</code>：每次已读门诊的日期、机构、科室、诊断、处理和恢复信息。</li>
+  <li><code>lab_results.csv</code>：长表格式，每行一个指标，保留单位、参考范围和异常标记。未显示参考范围的项目留空。</li>
+  <li><code>historical_values.csv</code>：后续门诊病历中转述的旧检验值，和已读原始报告分开保存。</li>
+  <li><code>imaging_reports.csv</code>：影像报告结论和日期差异。</li>
+  <li><code>source-notes/</code>：按日期转录的报告及病历要点，并保留哪些内容来自医生记录、哪些来自检验页面。</li>
+  <li><code>trends.md</code>：可比指标的时间序列和仍待核对的数据。</li>
+  <li><a href="health-advice-2026-11-09.html">健康建议与长期跟踪</a> 汇总多次接近边界、反复异常及已回到参考范围的指标，并按疾病列出复查重点。</li>
+  <li><code>medications-and-follow-up.md</code>：病历中出现的用药、治疗与复查安排；区分医生医嘱和病历描述的实际使用。</li>
+</ul>
+
+<p>日期含义分别记录：就诊日期、标本采集日期与报告日期不混用。不同机构的参考范围可能不同；表中“正常”仅表示位于该次报告自己的参考范围内，不能单独说明没有健康风险。缺失值用空白表示，不补零。没有读到的治疗和恢复情况写“未见记录”，不推断为未治疗或已康复。</p>
+
+<h2 id="section-1">复核状态</h2>
+
+<p>2026-11-09 已检查 538 条指标的录入格式、同日同院同组同名项目重复，以及可直接比较的数值与参考范围标记。该检查只能发现表内矛盾；未完成全部原报告二次核对。2025-10-29 乙肝判读错误已更正；历史值中维生素 D 16.6 的日期归属已改为 2026-04-10。仅有 App“检测时间”的记录不能独立证明采样日期与签发日期相同；现有 sample_date/report_date 两列需逐报告核实日期含义，不能据两列相同认定同日采样签发。</p>
+
+<p>原页二次核对新增更正：2026-03-02药物为阿魏酸哌嗪片（宝盛康），前次误写非布司他，相关警告撤回。2月5日、3月2日、3月21日、4月7日肾内科病历原文均为血肌酐高，前次误写肌酸激酶高。T-SPOT阳性及数值已二次确认，参考比较符显示异常，保留为待核。</p>
+
+<p>新增数据文件：vaccinations.csv保存3次已读接种详情；prescriptions.csv保存已打开处方逐药明细（含历史处方及源字段异常）；insurance_annual_summary.csv保存2025、2026医保年度汇总，非完整结算流水。</p>
+
+<p>最新覆盖范围及缺口见coverage.md；clinical_scores.csv、optometry.csv、vital_signs.csv保存评分、验光和生命体征。</p>
+
+<h2 id="section-2">快速查阅</h2>
+
+<p>打开<a href="health-hub.html">健康记录查阅台</a>，可搜索药名、疾病、医院与指标，按年份筛选，并查看同项指标变化。原名称和单位保留，统一归组映射见canonical_analytes.json。先看<a href="next-visit-plan.html">下次就诊建议</a>确认近期联系事项。</p>
+
+<p>预约和实际用药的个人补充只保存在当前浏览器，可导出备份供后续更新，不会自动同步知识库。基线数据仍以CSV及知识库原记录为准。查阅台已完成本地逻辑检查；真实浏览器显示受本地文件访问限制，已请本人打开核对。当前用药、最近注射、术后预约和结核评估结果待本人补充。</p>
+</main><footer>公开知识库 · 原始资料与网页版本同时保留</footer></body></html>

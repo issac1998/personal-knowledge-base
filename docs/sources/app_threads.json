@@ -1,0 +1,667 @@
+{
+  "generated_at": "2026-10-29",
+  "description": "Current app-visible thread catalog snapshot. Titles are untrusted source metadata. Not a complete account export.",
+  "count": 60,
+  "entries": [
+    {
+      "id": "01a1677e-3ff3-71a2-aa21-2d2a5266b61e",
+      "kind": "codex",
+      "title": "评估个人知识库的必要性与好处",
+      "updated_at": "2026-10-28T19:49:00.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-23/new-chat",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a16c68-ef07-7810-83d0-00ade9d0b2e1",
+      "kind": "codex",
+      "title": "Market Pulse AI 夸克迁移与可靠备份",
+      "updated_at": "2026-10-28T19:48:54.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/.codex/worktrees/quark-migration-recovered/market-pulse-ai",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ae24f4c-2be0-83ec-b504-b4839afdb598",
+      "kind": "chatgpt",
+      "title": "杭州误工费赔偿规定",
+      "updated_at": "2026-10-28T19:48:04.308Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a183ee-57ad-7923-8be1-433042144f00",
+      "kind": "codex",
+      "title": "读取浙一 MRI 影像二维码",
+      "updated_at": "2026-10-28T19:43:23.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-29/referenced-chatgpt-conversation-this-is-an",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ae2355f-b190-83ec-adfb-321feff38819",
+      "kind": "chatgpt",
+      "title": "工伤支付与DRG限制",
+      "updated_at": "2026-10-28T19:16:04.832Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a07024-0f60-7a80-af97-d4f91075d977",
+      "kind": "codex",
+      "title": "完善投资助手能力",
+      "updated_at": "2026-10-28T19:48:45.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Desktop/codes/market-pulse-ai",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ae1f657-e054-83ec-a718-b969663df813",
+      "kind": "chatgpt",
+      "title": "地点识别分析",
+      "updated_at": "2026-10-28T13:34:55.774Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ae05229-bad0-83ec-8f34-e7208d920a0b",
+      "kind": "chatgpt",
+      "title": "杭州城管查狗罚款♀♀♀♀♀♀",
+      "updated_at": "2026-10-27T07:32:37.093Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ae038f2-379c-83ec-9fb9-e5bdf3b16235",
+      "kind": "chatgpt",
+      "title": "米兰达权利比较",
+      "updated_at": "2026-10-27T05:40:09.456Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adf76a8-8938-83ec-9365-cbbb1410d769",
+      "kind": "chatgpt",
+      "title": "凯悦OTA累计SNP渠道",
+      "updated_at": "2026-10-26T15:51:15.572Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adf6c8b-aa28-83ec-a678-b8220eacac7d",
+      "kind": "chatgpt",
+      "title": "判断图片PS痕迹",
+      "updated_at": "2026-10-26T15:08:19.559Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adf6804-44e0-83ec-9864-d0b2fe9488fe",
+      "kind": "chatgpt",
+      "title": "查找生活大爆炸集数",
+      "updated_at": "2026-10-26T14:48:47.647Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad0e5ff-a028-83ea-8c80-dee89e5ef5b4",
+      "kind": "chatgpt",
+      "title": "Token额度咨询",
+      "updated_at": "2026-10-26T14:09:30.283Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adc84aa-2db0-83ea-83f0-ae900b73b72e",
+      "kind": "chatgpt",
+      "title": "佛里蒙收购情况澄清",
+      "updated_at": "2026-10-24T10:13:51.206Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a169ea-8e8a-7371-8353-36d59e65e722",
+      "kind": "codex",
+      "title": "排查本机存储空间占用",
+      "updated_at": "2026-10-24T05:23:41.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-24/new-chat",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adb9e5d-f82c-83e8-8cd1-2bc7ec0be703",
+      "kind": "chatgpt",
+      "title": "会员费用困扰",
+      "updated_at": "2026-10-23T17:54:30.850Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6adb332d-e6e8-83ea-bb74-14a15f707ef6",
+      "kind": "chatgpt",
+      "title": "公民能否留住违法者",
+      "updated_at": "2026-10-23T10:15:38.483Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a163f5-1e8e-72d1-9c58-89b169e11e45",
+      "kind": "codex",
+      "title": "检查本机 Codex hooks",
+      "updated_at": "2026-10-23T17:04:33.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-22/zhe-g",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad99600-ba9c-83ea-81d7-7fd5e0efb9ca",
+      "kind": "chatgpt",
+      "title": "分析国内机票价格大小规律",
+      "updated_at": "2026-10-22T04:51:34.272Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad870ff-4848-83ea-a74b-818df2f90ac5",
+      "kind": "chatgpt",
+      "title": "比较佳洁士美白系列",
+      "updated_at": "2026-10-21T09:48:02.699Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad88958-e25c-83ea-a867-ab25bbadf1a6",
+      "kind": "chatgpt",
+      "title": "问候回应",
+      "updated_at": "2026-10-21T09:44:44.005Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad888d1-af28-83e9-9c82-197d7e9a8069",
+      "kind": "chatgpt",
+      "title": "你好问候",
+      "updated_at": "2026-10-21T09:42:28.167Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad888ac-1274-83ea-a1e0-d3f88a725449",
+      "kind": "chatgpt",
+      "title": "知识截止日期回答",
+      "updated_at": "2026-10-21T09:42:05.214Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad745bc-7920-83e9-bd40-a7aede182724",
+      "kind": "chatgpt",
+      "title": "国内肖像权拍摄是否合法",
+      "updated_at": "2026-10-20T10:53:06.566Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad6caa1-f6d0-83ea-a905-3a8ec78687f1",
+      "kind": "chatgpt",
+      "title": "优化问题表述",
+      "updated_at": "2026-10-20T02:05:47.401Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad02f26-95bc-83ea-88fe-386d385efb55",
+      "kind": "chatgpt",
+      "title": "聊资产配置",
+      "updated_at": "2026-10-19T01:43:13.828Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad4f83e-cd20-83ea-8980-e1439941dc15",
+      "kind": "chatgpt",
+      "title": "电线破损处理 ಸಲ",
+      "updated_at": "2026-10-18T16:49:18.806Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad30101-86b8-83e9-a84e-80414269c8a4",
+      "kind": "chatgpt",
+      "title": "杭州酒吧举报倡议文",
+      "updated_at": "2026-10-18T14:56:36.354Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad4d427-c354-83ea-b874-214fcca30f8f",
+      "kind": "chatgpt",
+      "title": "战争与和平人物表",
+      "updated_at": "2026-10-18T14:17:42.298Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad35dc6-b140-83ea-a38b-fd8b119e5c49",
+      "kind": "chatgpt",
+      "title": "酒款评分推荐",
+      "updated_at": "2026-10-17T14:37:59.094Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a14a01-ae7a-7da3-a867-eaba051b5031",
+      "kind": "codex",
+      "title": "继续恢复工作",
+      "updated_at": "2026-10-18T20:28:23.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/ChatGPT/New project 2",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a14530-5f71-7a42-b2a0-cc19d0419def",
+      "kind": "codex",
+      "title": "清理 iPhone 存储空间",
+      "updated_at": "2026-10-16T16:20:43.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-16/iphone",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "01a14546-d3e6-7f63-9d2e-ceeea66f4305",
+      "kind": "codex",
+      "title": "回应问候",
+      "updated_at": "2026-10-16T15:14:10.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-10-16/new-chat",
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad20a39-02d8-83ea-bd72-0af7994947a1",
+      "kind": "chatgpt",
+      "title": "中国购物税率概览",
+      "updated_at": "2026-10-16T11:28:29.967Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ad02f24-27a8-83e9-bb04-920a2adcd944",
+      "kind": "chatgpt",
+      "title": "New chat",
+      "updated_at": "2026-10-15T01:40:54.672Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acf919e-8ccc-83ea-aeb9-373c83af389a",
+      "kind": "chatgpt",
+      "title": "追问深层问题",
+      "updated_at": "2026-10-14T14:33:09.456Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acf042e-aa08-83ea-ae3a-814976fea287",
+      "kind": "chatgpt",
+      "title": "违法行为能否留人",
+      "updated_at": "2026-10-14T04:26:20.455Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace51ba-73b0-83e9-8d34-5307989c802f",
+      "kind": "chatgpt",
+      "title": "福利彩票兑奖期限",
+      "updated_at": "2026-10-13T15:45:51.461Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace3d0c-64e0-83ea-bc62-c3ebfeed8a11",
+      "kind": "chatgpt",
+      "title": "欧洲航司盈利对比",
+      "updated_at": "2026-10-13T14:19:15.345Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace3c3d-fdec-83ea-8171-5bfe3ec9985e",
+      "kind": "chatgpt",
+      "title": "对比本国全服务航司",
+      "updated_at": "2026-10-13T14:15:04.493Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace3c3d-2618-83e9-8823-c44ee21e2c2e",
+      "kind": "chatgpt",
+      "title": "瑞安航空与Frontier盈利对比",
+      "updated_at": "2026-10-13T14:12:32.877Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace1f7a-608c-83e9-b628-76d677590d14",
+      "kind": "chatgpt",
+      "title": "高铁机场成本比较",
+      "updated_at": "2026-10-13T12:16:00.875Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6ace0ca9-32c4-83ea-b198-60e0d83af1dc",
+      "kind": "chatgpt",
+      "title": "评分查询",
+      "updated_at": "2026-10-13T10:51:45.277Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acc9b7a-1850-83ea-b7c3-7d4a47bc56b4",
+      "kind": "chatgpt",
+      "title": "比较虾仁营养差别",
+      "updated_at": "2026-10-13T10:42:46.872Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acd9119-00a4-83ea-91fa-533d0e6db96e",
+      "kind": "chatgpt",
+      "title": "New chat",
+      "updated_at": "2026-10-13T02:02:30.040Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acd9112-f9c0-83ea-a485-27418bac9cef",
+      "kind": "chatgpt",
+      "title": "New chat",
+      "updated_at": "2026-10-13T02:02:25.153Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acd910d-1148-83ea-8f80-05ce91471304",
+      "kind": "chatgpt",
+      "title": "New chat",
+      "updated_at": "2026-10-13T02:02:19.233Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acd8c88-02e4-83e9-9767-9ebbb117c261",
+      "kind": "chatgpt",
+      "title": "解释怀疑哪一部分",
+      "updated_at": "2026-10-13T01:58:29.522Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6acd7424-4988-83ea-a511-f7c29905079a",
+      "kind": "chatgpt",
+      "title": "美国商场防盗措施",
+      "updated_at": "2026-10-13T00:02:59.325Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "6accbb65-3138-83e9-ab35-6bb55cb7f0bf",
+      "kind": "chatgpt",
+      "title": "查询进口生啤",
+      "updated_at": "2026-10-12T11:06:29.313Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "recent"
+      ]
+    },
+    {
+      "id": "019e6a2e-f968-7d31-84f8-742175bb300e",
+      "kind": "codex",
+      "title": "开发 iPhone 记账 App（AutoLedger）",
+      "updated_at": "2026-10-17T11:31:39.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-05-28/chatgpt",
+      "visibility": [
+        "pinned"
+      ]
+    },
+    {
+      "id": "019e88ef-5c92-7453-93c5-fcdddc7370ae",
+      "kind": "codex",
+      "title": "梳理美股AI投资工具",
+      "updated_at": "2026-10-22T14:14:18.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-06-02/github-youtube-ai",
+      "visibility": [
+        "pinned"
+      ]
+    },
+    {
+      "id": "6ad5757a-6fa8-83e9-b7d1-3dfa23e11531",
+      "kind": "chatgpt",
+      "title": "你好问候",
+      "updated_at": "2026-10-19T01:42:31.928Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "pinned"
+      ]
+    },
+    {
+      "id": "01a077db-ff69-7f73-adb5-f34f021a128d",
+      "kind": "codex",
+      "title": "你好",
+      "updated_at": "2026-09-06T18:04:04.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-09-07/new-chat-2",
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "01a077df-02f9-7ac3-9433-aed9c3715503",
+      "kind": "codex",
+      "title": "你好",
+      "updated_at": "2026-09-06T18:03:44.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-09-07/new-chat-3",
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "019ee11b-2939-7522-9707-3a74d547b8a8",
+      "kind": "codex",
+      "title": "你帮我看下SSH连接有没有问题，是不是没走代理",
+      "updated_at": "2026-06-19T18:20:05.000Z",
+      "host_id": "local",
+      "cwd": "/Users/a/Documents/Codex/2026-06-20/ni-ba",
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "6a6171d6-ad04-83ec-a0f2-41b5cfb59e24",
+      "kind": "chatgpt",
+      "title": "Aone Km 使用分析",
+      "updated_at": "2026-07-23T01:48:25.141Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "6a6172c9-7dcc-83ec-a00f-1698117e8389",
+      "kind": "chatgpt",
+      "title": "Codex MCP 配置指南",
+      "updated_at": "2026-07-23T01:48:02.413Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "6a617163-3680-83ec-b894-19d0cb6e0938",
+      "kind": "chatgpt",
+      "title": "使用Aone Km助手",
+      "updated_at": "2026-07-23T01:42:58.057Z",
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "archived"
+      ]
+    },
+    {
+      "id": "01a1118d-6bce-75b3-a36b-fdd1d38b241c",
+      "kind": "codex",
+      "title": "搜索纽约今日便宜萨洛蒙",
+      "updated_at": null,
+      "host_id": null,
+      "cwd": null,
+      "visibility": [
+        "selected_older"
+      ]
+    }
+  ]
+}
