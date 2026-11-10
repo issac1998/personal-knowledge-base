@@ -9,4 +9,4 @@ if ! git diff --cached --quiet; then
   git commit -m "Sync knowledge base $(date +%F)"
 fi
 
-git push origin main
+env -u HTTPS_PROXY -u HTTP_PROXY -u ALL_PROXY git push origin main
