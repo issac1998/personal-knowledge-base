@@ -11,10 +11,12 @@ import re
 import shutil
 import subprocess
 from urllib.parse import urlsplit
+from zipfile import ZIP_DEFLATED, ZipFile
 
 
 DEFAULT_SOURCE = Path("/Users/a/Documents/Codex/2026-10-23/new-chat/knowledge-base")
 ROOT = Path(__file__).resolve().parent
+CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
 SPACE_PAGES = {
@@ -90,6 +92,19 @@ def build(source: Path) -> None:
         raise SystemExit(f"没有找到知识库首页：{source / 'README.md'}")
     if source == OUT or source in OUT.parents or OUT in source.parents:
         raise SystemExit("来源目录与发布目录不能嵌套")
+    if source != CONTENT.resolve():
+        if source == ROOT or source in ROOT.parents or ROOT in source.parents:
+            raise SystemExit("来源目录不能是网站项目或其上级目录")
+        if CONTENT.exists():
+            shutil.rmtree(CONTENT)
+        CONTENT.mkdir(parents=True)
+        for item in sorted(source.rglob("*")):
+            if not item.is_file() or item.is_symlink() or any(part.startswith(".") for part in item.relative_to(source).parts):
+                continue
+            destination = CONTENT / item.relative_to(source)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(item, destination)
+    source = CONTENT
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
@@ -130,10 +145,17 @@ def build(source: Path) -> None:
     (OUT / "assets").mkdir()
     (OUT / "assets/style.css").write_text(CSS, encoding="utf-8")
     (OUT / ".nojekyll").touch()
-    print(f"已同步 {raw_count} 个原始文件，生成 {len(pages) + 2} 个阅读页面：{OUT}")
+    archive = ROOT / "site.zip"
+    with ZipFile(archive, "w", ZIP_DEFLATED) as bundle:
+        for file in sorted(OUT.rglob("*")):
+            if file.is_file():
+                bundle.write(file, file.relative_to(OUT))
+    print(f"已纳入 Git 快照的原始文件：{CONTENT}（{raw_count} 个）")
+    print(f"已生成 {len(pages) + 2} 个阅读页面：{OUT}")
+    print(f"已生成供 GitHub Pages 发布的压缩包：{archive}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE, help="本地知识库目录")
+    parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE if DEFAULT_SOURCE.is_dir() else CONTENT, help="本地知识库目录；默认优先读取这台 Mac 的原始目录，否则使用 content/")
     build(parser.parse_args().source)
