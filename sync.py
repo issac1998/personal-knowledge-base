@@ -11,7 +11,7 @@ import re
 import shutil
 import subprocess
 from urllib.parse import urlsplit
-from zipfile import ZIP_DEFLATED, ZipFile
+from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 
 DEFAULT_SOURCE = Path("/Users/a/Documents/Codex/2026-10-23/new-chat/knowledge-base")
@@ -149,7 +149,10 @@ def build(source: Path) -> None:
     with ZipFile(archive, "w", ZIP_DEFLATED) as bundle:
         for file in sorted(OUT.rglob("*")):
             if file.is_file():
-                bundle.write(file, file.relative_to(OUT))
+                entry = ZipInfo(file.relative_to(OUT).as_posix(), (1980, 1, 1, 0, 0, 0))
+                entry.compress_type = ZIP_DEFLATED
+                entry.external_attr = 0o644 << 16
+                bundle.writestr(entry, file.read_bytes())
     print(f"已纳入 Git 快照的原始文件：{CONTENT}（{raw_count} 个）")
     print(f"已生成 {len(pages) + 2} 个阅读页面：{OUT}")
     print(f"已生成供 GitHub Pages 发布的压缩包：{archive}")

@@ -4,17 +4,14 @@
 
 ## 同步本地更新
 
-在这台 Mac 上运行：
+在这台 Mac 上运行一条命令：
 
 ```sh
 cd /Users/a/Documents/ChatGPT/agent/knowledge-base-pages
-python3 sync.py
-git add content docs site.zip sync.py README.md
-git commit -m "Sync knowledge base"
-git push origin main
+./publish.sh
 ```
 
-`sync.py` 会把原始目录复制到 `content/`，生成阅读页面和 `site.zip`。推送后，GitHub Actions 自动重新发布网站。第一次使用 Git 推送时，需要在这台 Mac 上完成 GitHub 认证。若尚未认证，也可以在 GitHub 仓库选择 **Add file → Upload files** 上传 `site.zip`，但这种方式只会更新网站，不会把 `content/` 的各个原始文件纳入 Git 历史。
+`publish.sh` 会调用 `sync.py`，把原始目录复制到 `content/`，生成阅读页面和 `site.zip`，提交发生变化的文件并推送。推送后，GitHub Actions 自动重新发布网站；没有内容变化时不会产生新的提交。这台 Mac 已验证可以直接推送到该仓库。
 
 `sync.py` 在这台 Mac 上默认读取 `/Users/a/Documents/Codex/2026-10-23/new-chat/knowledge-base`；来源位置变化时传入 `--source /新路径`。其他电脑克隆仓库后，可使用 `python3 sync.py --source content` 重新生成网站。网页中的 ChatGPT Space 链接会尽量替换为对应的本地页面。健康查阅台中手动填写的补充保存在当前浏览器，不会随着 Git 同步。
 
